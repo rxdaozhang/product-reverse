@@ -10,6 +10,40 @@ Systematically explore a web product using Chrome browser automation to produce:
 2. **Design Document** (`design-doc.md`) - how to build something similar (with your own technical recommendations)
 3. **API Surface** (`api-surface.md`) - documented API endpoints
 
+## Trigger Conditions
+
+Use this skill when the user provides a product URL and asks to:
+- analyze how a site/app works,
+- reverse-engineer UX or user flows,
+- infer API/data model and technical stack,
+- produce a build plan for a similar product.
+
+## Inputs and Outputs
+
+### Required Input
+
+- Target URL
+
+### Optional Inputs
+
+- Focus areas (for example: auth flow, editor, billing, search)
+- Depth/coverage constraints (for example: "only public pages")
+- Preferred implementation stack for replica planning
+
+### Standard Outputs
+
+- `report.md`
+- `design-doc.md`
+- `api-surface.md`
+- `ui-design-mockup.md` (when UI draft step is requested)
+
+## Out of Scope
+
+- Entering real credentials or bypassing authentication walls
+- Security exploitation, penetration testing, or destructive actions
+- Copying proprietary assets or source code verbatim
+- Legal/compliance advice beyond high-level risk notes
+
 ## Workflow Overview
 
 ```

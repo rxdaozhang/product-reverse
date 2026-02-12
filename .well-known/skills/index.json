@@ -1,0 +1,16 @@
+{
+  "version": "1.0",
+  "source": "rxdaozhang/product-reverse",
+  "homepage": "https://github.com/rxdaozhang/product-reverse",
+  "skills": [
+    {
+      "name": "product-reverse",
+      "path": "skills/product-reverse/SKILL.md",
+      "description": "Reverse-engineer a web product from a URL and produce report, design doc, and API surface outputs."
+    }
+  ],
+  "install": {
+    "all": "npx skills add rxdaozhang/product-reverse",
+    "single": "npx skills add rxdaozhang/product-reverse --skill product-reverse"
+  }
+}
